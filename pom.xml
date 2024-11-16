@@ -15,16 +15,16 @@
 
   <name>Amazon</name>
 
-  <distributionManagement>
-    <repository>
-        <id>adikarthikgupta</id>
-        <url>https://pkgs.dev.azure.com/adikarthikgupta/_packaging/adikarthikgupta/maven/v1</url>
-    </repository>
-    <snapshotRepository>
-        <id>adikarthikgupta</id>
-        <url>https://pkgs.dev.azure.com/adikarthikgupta/_packaging/adikarthikgupta/maven/v1</url>
-    </snapshotRepository>
-  </distributionManagement>
+<repository>
+ <id>adikarthikgupta</id>
+ <url>https://pkgs.dev.azure.com/adikarthikgupta/_packaging/adikarthikgupta/maven/v1</url>
+ <releases>
+ <enabled>true</enabled>
+ </releases>
+ <snapshots>
+ <enabled>true</enabled>
+ </snapshots>
+</repository
 
 
   <properties>
